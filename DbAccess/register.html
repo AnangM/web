@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daftar</title>
+    <style>
+        table {
+            border: 0;
+        }
+        td{
+            padding:5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Daftar</h2>
+    <form method="POST" action="register.php">
+        <table>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>:</td>
+                <td>
+                    <input type="text" id="nama" name="nama" length="30">
+                </td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td>
+                    <input type="text" id="uname" name="uname" length="30">
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td>
+                    <input type="password" id="pwd" name="pwd" length="30">
+                </td>
+            </tr>
+            <tr>
+                <td>Password sekali lagi</td>
+                <td>:</td>
+                <td>
+                    <input type="password" id="confirmPwd" name="confirmPwd" length="30">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
